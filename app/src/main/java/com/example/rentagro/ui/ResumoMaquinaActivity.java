@@ -20,6 +20,8 @@ import com.example.rentagro.R;
 import com.example.rentagro.model.Maquina;
 import com.example.rentagro.util.ResourceUtil;
 
+import org.w3c.dom.Text;
+
 import static com.example.rentagro.ui.Constantes.CHAVE;
 
 public class ResumoMaquinaActivity extends AppCompatActivity {
@@ -34,8 +36,21 @@ public class ResumoMaquinaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_resumo_maquina);
         setTitle(TITLE_APP_BAR);
         carregaMaquinaRecebida();
+        abrirTelefone();
 
-       telefone = findViewById(R.id.activity_resumo_maquina_telefone);
+        TextView termo_uso = findViewById(R.id.activity_resumo_maquina_termo);
+        termo_uso.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(ResumoMaquinaActivity.this,
+                        PoliticaPrivacidadeActivity.class);
+                startActivity(i);
+            }
+        });
+    }
+
+    private void abrirTelefone() {
+        telefone = findViewById(R.id.activity_resumo_maquina_telefone);
         telefone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick (View v){

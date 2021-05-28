@@ -58,16 +58,6 @@
         app:layout_constraintTop_toBottomOf="@+id/activity_resumo_maquina_text_dias"
         tools:text="R$ 243,99" />
 
-    <!--        <TextView-->
-    <!--        android:id="@+id/activity_resumo_maquina_descricao"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:text="TextView"-->
-    <!--        android:textSize="18sp"-->
-    <!--        android:textStyle="bold"-->
-    <!--        app:layout_constraintStart_toStartOf="@+id/activity_resumo_maquina_valor"-->
-    <!--        app:layout_constraintTop_toBottomOf="@+id/activity_resumo_maquina_valor" />-->
-
     <TextView
         android:id="@+id/activity_resumo_maquina_telefone"
         android:layout_width="wrap_content"
