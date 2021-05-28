@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Rent Agro</string>
+    <string name="banner">banner</string>
+    <string name="logo_app">"A melhor opção é aqui! "</string>
+    <string name="frase_app">"Todos os Implementos em um só lugar! "</string>
+    <string name="activity_resumo_maquina_imagem_maquina">imagem_maquina</string>
+    <string name="activity_privacidade_subtitle">Tipos de Dados Coletados</string>
+    <string name="activity_privacidade_text">O RentAgro cria tecnologias e serviços para que as pessoas possam se conectar com maquinários agrícolas. Estes Termos regem seu uso, locação, recursos, aplicativos, serviços, tecnologias e software que nós oferecemos. Todas as máquinas aqui referidas são de responsabilidade do proprietário, nosso aplicativo apenas oferece a facilidade de encontrar a maquina certa para você produtor!</string>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardItemPAcotes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/item_maquina_image_maquina"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:contentDescription="@string/banner"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@sample/maquinas.json/pacotes/imagem" />
+
+            <TextView
+                android:id="@+id/item_maquina_text_nome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@android:drawable/screen_background_dark_transparent"
+                android:padding="8dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/item_maquina_image_maquina"
+                app:layout_constraintEnd_toEndOf="@+id/item_maquina_image_maquina"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/item_maquina_image_maquina"
+                app:layout_constraintTop_toTopOf="@+id/item_maquina_image_maquina"
+                app:layout_constraintVertical_bias="1.0"
+                tools:text="@sample/maquinas.json/pacotes/nome" />
+
+            <View
+                android:id="@+id/item_maquina_divisor"
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:background="@android:color/holo_orange_dark"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/item_maquina_image_maquina" />
+
+
+            <TextView
+                android:id="@+id/item_maquina_text_dias"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/item_maquina_divisor"
+                tools:text="@sample/maquinas.json/pacotes/dias" />
+
+            <TextView
+                android:id="@+id/item_maquina_text_preco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/item_maquina_text_dias"
+                app:layout_constraintTop_toBottomOf="@+id/item_maquina_text_dias"
+                tools:text="@sample/maquinas.json/pacotes/valor" />
+
+            <TextView
+                android:id="@+id/item_maquina_text_telefone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:text="(14)123456"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_green_dark"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/item_maquina_image_maquina"
+                tools:text="@sample/maquinas.json/pacotes/telefone"/>
+
+            <TextView
+                android:id="@+id/item_maquina_text_cidade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pompeia-SP"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/item_maquina_text_telefone"
+                app:layout_constraintTop_toBottomOf="@+id/item_maquina_text_telefone"
+                tools:text="@sample/maquinas.json/pacotes/cidade"/>
+
+<!--            <TextView-->
+<!--                android:id="@+id/item_maquina_descricao"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:text="Boas condições"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold"-->
+<!--                app:layout_constraintEnd_toEndOf="@+id/item_maquina_text_cidade"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/item_maquina_text_cidade" />-->
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,50 @@
+{
+  "pacotes": [
+    {
+      "local": "Tratores",
+      "imagem": "@drawable/caminhao",
+      "dias": "5 dias",
+      "valor": "00,00",
+      "telefone": "(14) 123456",
+      "cidade": "Pompeia"
+    },
+    {
+      "local": "Caminhões",
+      "imagem": "@drawable/implementos",
+      "dias": "10 dias",
+      "valor": "00,00",
+      "telefone": "(14) 123456",
+      "cidade": "Pompeia"
+    },
+    {
+      "nome": "Implementos",
+      "imagem": "@drawable/caminhao",
+      "dias": "2 dias",
+      "valor": "00,00"
+    },
+    {
+      "nome": "Semeadora",
+      "imagem": "@drawable/implementos",
+      "dias": "15 dias",
+      "valor": "00,00",
+      "telefone": "(14) 123456",
+      "cidade": "Pompeia"
+    },
+    {
+      "nome": "Plantadeira",
+      "imagem": "@drawable/caminhao",
+      "dias": "3 dias",
+      "valor": "00,00",
+      "telefone": "(14) 123456",
+      "cidade": "Pompeia"
+    },
+    {
+      "nome": "Tombador",
+      "imagem": "@drawable/implementos",
+      "dias": "20 dias",
+      "valor": "00,00",
+      "telefone": "(14) 123456",
+      "cidade": "Pompeia"
+    }
+  ]
+}

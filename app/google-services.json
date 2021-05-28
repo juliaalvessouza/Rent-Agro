@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "480241278860",
+    "firebase_url": "https://rentagro-df2c1-default-rtdb.firebaseio.com",
+    "project_id": "rentagro-df2c1",
+    "storage_bucket": "rentagro-df2c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:480241278860:android:580b747955dae2ad45c0a9",
+        "android_client_info": {
+          "package_name": "com.example.rentagro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "480241278860-kabbcs9s1o3sq33pkf29offrm3dk06fh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rentagro",
+            "certificate_hash": "bb2134ff5ce3e466be9fb11fbd31253a398965b8"
+          }
+        },
+        {
+          "client_id": "480241278860-iom5e5pa2v238pg4o7ham7d58npble4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3N1lnGN9qj2Oaev5DDMTIuizzelHtVC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "480241278860-iom5e5pa2v238pg4o7ham7d58npble4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
